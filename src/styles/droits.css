@@ -1,0 +1,164 @@
+
+body{
+    font-family: Arial, sans-serif;
+    
+}
+
+
+.container-main {
+    display: flex ;
+    flex-wrap: wrap ;  
+    justify-content: space-evenly;
+    gap: 2rem ;
+    margin-top: 90PX;
+    margin-bottom: 90PX;
+
+
+}
+
+
+.container-A{
+    background-color:rgb(13, 157, 201);
+    border-radius: 50%;
+    width: 400PX;
+    height: 300PX;
+    float: inline-end;
+
+
+
+}
+
+
+
+.container-B{
+    background-color:rgb(13, 157, 201);
+    border-radius: 50%;
+    width: 400PX;
+    height: 300PX;
+    float: inline-end;
+
+}
+
+
+
+.container-C{
+    background-color:rgb(13, 157, 201);
+    border-radius: 50%;
+    width: 400PX;
+    height: 300PX;
+    float: inline-end;
+
+   
+
+
+}
+
+
+
+.container-D{
+
+    background-color:blue;
+    border-radius: 50%;
+    width: 400PX;
+    height: 300PX;
+    margin-top: 200PX;
+    float: inline-end;
+
+
+}
+
+
+
+.container-E{
+
+    background-color:blue;
+    border-radius: 50%;
+    width: 400PX;
+    height: 300PX;
+    margin-top: 200PX;
+    float: inline-end;
+
+
+   
+
+}
+
+
+#img-AZ{
+
+    width: 320PX;
+    height: 200PX;
+    border-radius: 50%;
+    border: black 5PX solid;
+    margin-top: 20PX;
+    margin-left: 90PX;
+}
+
+
+
+#img-AB{
+  
+    width: 320PX;
+    height: 200PX;
+    border-radius: 50%;
+    border: black 5PX solid;
+    margin-top: 20PX;
+    margin-left: 90PX;
+
+
+
+}
+
+#img-AC{ 
+   
+   width: 320PX;
+    height: 200PX;
+    border-radius: 50%;
+    border: black 5PX solid;
+    margin-top: 20PX;
+    margin-left: 90PX;
+
+}
+
+#img-AD{
+   
+  width: 320PX;
+    height: 200PX;
+    border-radius: 50%;
+    border: black 5PX solid;
+    margin-top: 20PX;
+    margin-left: 90PX;
+}
+
+
+.img-AE{
+  width: 320PX;
+    height: 200PX;
+    border-radius: 50%;
+    border: black 5PX solid;
+    margin-top: 20PX;
+    margin-left: 90PX;
+
+}
+
+
+#img-F{
+    
+  width: 320PX;
+    height: 200PX;
+    border-radius: 50%;
+    border: black 5PX solid;
+    margin-top: 20PX;
+    margin-left: 90PX;
+}
+
+
+
+
+
+#first-h{
+    text-align: left;
+    font-size: 30PX;
+    margin-top: 30PX;
+    margin-left: 80PX; 
+}
