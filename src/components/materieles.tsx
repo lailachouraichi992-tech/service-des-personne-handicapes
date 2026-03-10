@@ -1,4 +1,4 @@
-import React from "react"
+import { Link } from 'react-router'
 import '../styles/materieles.css'
 
 
@@ -35,8 +35,7 @@ export default function Materieles() {
      <img id="img-sqr-1"src="/img/materiels pour les hadicapes/Wheelchairs.png" alt="home image1" />
 
         
-     <a className='lien' href="/Wheelchairs "> Wheelchairs </a>
-
+  <Link className="lien" to="/Wheelchairs" > Wheelchairs  </Link>
 
             </div>
 
@@ -47,8 +46,8 @@ export default function Materieles() {
 
  <img id="img-sqr-2" src="/img/materiels pour les hadicapes/voiturette-manuelle-standard.webp" alt="home image1" />
 
- <a className='lien' href="/voiturette-manuelle "> voiturette-manuelle  </a>
 
+  <Link className="lien" to="/voiturette-manuelle" > voiturette-manuelle  </Link>
 
 
 
@@ -66,7 +65,8 @@ export default function Materieles() {
 <img id="img-sqr-3" src="/img/materiels pour les hadicapes/rollator-dynamico-dinterieur-pour-enfant-6-a-8-ans.jpg" alt="home image1" />
 
 
-    <a className='lien' href="/rollator-dynamico"> rollator-dynamico </a>
+      <Link className="lien" to="/rollator-dynamico" > rollator-dynamico  </Link>
+
 
 
 
@@ -85,7 +85,7 @@ export default function Materieles() {
 
         
 
-                <a className='lien' href="/leve-personne"> leve-personne </a>
+      <Link className="lien" to="/leve-personne" > leve-personne  </Link>
 
 
 
@@ -102,8 +102,9 @@ export default function Materieles() {
                 <img id="img-sqr-5" src="/img/materiels pour les hadicapes/grillo-g2-photo-avec-personne.jpg" alt="home image1" />
 
             
-                <a className='lien' href="/grillo"> grillo  </a>
-                
+              
+                      <Link className="lien" to="/grillo" > grillo  </Link>
+
 
 
 
@@ -120,8 +121,7 @@ export default function Materieles() {
         alt="Aloeverastabilisée image1" />
 
 
-                <a className='lien' href="/rampe "> rampe </a>
-
+      <Link className="lien" to="/rampe" > rampe  </Link>
 
 
 
